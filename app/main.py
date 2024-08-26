@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def load_data():
-    return pd.read_csv('data/cleaned_data.csv')
+    return pd.read_csv('../data/benin-malanville.csv')
 
 def main():
     st.title("Solar Radiation Data Dashboard")
